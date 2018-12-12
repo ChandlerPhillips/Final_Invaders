@@ -1,0 +1,37 @@
+Invaders
+--------
+Spring 2018 - CSC 575 - Dr. Robert Pilgrim
+
+How to Build
+------------
+1. Download Unity.
+2. Open the "Invaders_Source" directory inside Unity.
+3. Build for the target platform.
+
+How to Run Stable Build on Windows
+----------------------------------
+1. Open the "Stable_Build/Invaders" directory.
+2. Execute "Invaders.exe"
+3. Press the "ESC" button to terminate.
+
+Game Controls
+-------------
+1. ESC --- Exit game.
+2. Left & Right Arrows --- Move Left & Move Right.
+3. Space Bar --- Launch missile.
+
+Game Logic
+----------
+1. Save lives by dodging invaders.
+
+2. Different invaders move at different speeds and in different formations based upon the player ship location, when invaders spawn:
+	* Pink Invaders --- Very slow speed and travel distant to the player ship.
+	* Blue Invaders --- Slow speed and travel near the player ship.
+	* Green Invaders --- Moderate speed and target the player ship.
+	* Yellow Invaders --- Fast speed and target the player ship.
+
+3. Earn points by destroying invaders with missiles.
+
+4. Earn an extra life (up to five lives at once) every 100 points.
+
+5. The player ship can only fire one missile at a time. If a missile misses, the player ship must wait until the missile is out of sight to fire another missile. If a missile destroys an invader, the player ship can instantly fire another missile.
